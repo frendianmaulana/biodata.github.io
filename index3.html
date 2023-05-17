@@ -13,6 +13,10 @@
     input:disabled {
         cursor: not-allowed;
     }
+
+    .img-blur:not(:hover) {
+        filter: blur(15px);
+    }
 </style>
 
 <body>
@@ -50,35 +54,36 @@
         <div class="row justify-content-center">
             <div class="col-lg-4">
                 <h1 class="text-center">Biodata Diri</h1>
-                <img src="img/Terbaru223.png" class="circle mx-auto d-block" width="200" height="200">
+                <img src="img/Terbaru223.png" class="img-thumbnail img-blur rounded-circle mx-auto d-block" width="200"
+                    height="200" style="object-fit: contain;">
                 <div class="mb-3">
                     <p class="fw-bolder">Nama: </p>
                     <input class="form-control fw-bolder"
-                        style="background-color: var(--bs-primary-bg-subtle); color: var(--bs-emphasis-color)"
+                        style="background-color: var(--bs-primary-border-subtle); color: var(--bs-emphasis-color)"
                         value="Frendian Maulana Ashofa" disabled>
                 </div>
                 <div class="mb-3">
                     <p class="fw-bolder">Kelas dan Semester: </p>
                     <input class="form-control fw-bolder"
-                        style="background-color: var(--bs-primary-bg-subtle); color: var(--bs-emphasis-color)"
+                        style="background-color: var(--bs-primary-border-subtle); color: var(--bs-emphasis-color)"
                         value="4B" disabled>
                 </div>
                 <div class="mb-3">
                     <p class="fw-bolder">NIM: </p>
                     <input class="form-control fw-bolder"
-                        style="background-color: var(--bs-primary-bg-subtle); color: var(--bs-emphasis-color)"
+                        style="background-color: var(--bs-primary-border-subtle); color: var(--bs-emphasis-color)"
                         value="20040041" disabled>
                 </div>
                 <div class="mb-3">
                     <p class="fw-bolder">Jurusan: </p>
                     <input class="form-control fw-bolder"
-                        style="background-color: var(--bs-primary-bg-subtle); color: var(--bs-emphasis-color)"
+                        style="background-color: var(--bs-primary-border-subtle); color: var(--bs-emphasis-color)"
                         value="D3 Teknik Komputer" disabled>
                 </div>
                 <div class="mb-3">
                     <p class="fw-bolder">Nama Kampus: </p>
                     <input class="form-control fw-bold"
-                        style="background-color: var(--bs-primary-bg-subtle); color: var(--bs-emphasis-color)"
+                        style="background-color: var(--bs-primary-border-subtle); color: var(--bs-emphasis-color)"
                         value="Politeknik Harapan Bersama" placeholder="Masukkan Nama Kampus/Perguruan Tinggi."
                         disabled>
                     <!-- <p>Ex: Universitas Indonesia</p> -->
