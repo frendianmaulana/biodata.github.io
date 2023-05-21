@@ -15,7 +15,11 @@
     }
 
     .img-blur:not(:hover) {
-        filter: blur(15px);
+        filter: blur(10.8px) brightness(150%) grayscale(100%);
+    }
+
+    img {
+        filter: brightness(150%) drop-shadow(10.5px 8px 5px gray);
     }
 </style>
 
@@ -54,8 +58,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-4">
                 <h1 class="text-center">Biodata Diri</h1>
-                <img src="img/Terbaru223.png" class="img-thumbnail img-blur rounded-circle mx-auto d-block" width="200"
-                    height="200" style="object-fit: contain;">
+                <img src="img/Terbaru223.png" class="img-blur rounded-circle mx-auto d-block" width="250" height="250"
+                    style="object-fit: contain;">
                 <div class="mb-3">
                     <p class="fw-bolder">Nama: </p>
                     <input class="form-control fw-bolder"
