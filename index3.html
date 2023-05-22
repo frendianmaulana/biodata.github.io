@@ -59,7 +59,7 @@
             <div class="col-auto">
                 <h1 class="text-center">Biodata Diri</h1>
                 <img src="img/Terbaru223.png" class="img-blur circle mx-auto d-block"
-                    style="object-fit: cover; border-radius: 50%;" width="200" height="200" id="gambar">
+                    style="object-fit: contain; border-radius: 50%;" width="200" height="200" id="gambar">
                 <div class="mb-3">
                     <p class="fw-bolder">Nama: </p>
                     <input class="form-control fw-bolder"
@@ -68,8 +68,9 @@
                 </div>
                 <div class="mb-3">
                     <p class="fw-bolder">Gambar: </p>
-                    <input type="file" class="form-control fw-bolder" id="file"
-                        style="background-color: var(--bs-primary-border-subtle); color: var(--bs-emphasis-color)">
+                    <input type="file" class="form-control form-control-sm fw-bolder" id="file"
+                        style="background-color: var(--bs-primary-border-subtle); color: var(--bs-emphasis-color)"
+                        accept=".png, .jpg, .jpeg">
                 </div>
                 <div class="mb-3">
                     <p class="fw-bolder">Kelas dan Semester: </p>
